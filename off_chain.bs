@@ -1,3 +1,11 @@
-# Script for updating token balances
 # Assume Alice is sending tokens to Bob
-<Alice's Token Balance> <Bob's Token Balance> <Tokens to Send> OP_SUB <Alice's New Balance> <Tokens to Send> OP_ADD <Bob's New Balance>
+# Stack setup with Alice's balance, Bob's balance, and the transaction amount
+<Alice's Token Balance> <Bob's Token Balance> <Tokens to Send>
+
+# Calculate Alice's new balance
+OP_SUB      # Subtracts tokens sent from Alice's balance
+
+# Calculate Bob's new balance
+OP_ADD      # Adds tokens sent to Bob's balance
+
+# The stack now has Alice's New Balance and Bob's New Balance
