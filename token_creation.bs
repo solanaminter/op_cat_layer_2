@@ -1,0 +1,2 @@
+# Script for creating a token
+<tokenID> <tokenName> <tokenSymbol> <issuanceDate> OP_CAT OP_CAT OP_CAT
