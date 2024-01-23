@@ -1,2 +1,7 @@
-# Script for final settlement (simplified)
-<Final Token State> OP_CHECKSIG
+# Stack setup with the final state agreed by both parties
+<Final Token State>
+
+# Finalize the state on-chain
+OP_CHECKSIG # Assuming a signature is required to authorize the final state
+
+# The token balances are now settled on the blockchain
