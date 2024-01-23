@@ -1,20 +1,16 @@
-# Layer 2 Token System with OP_CAT
+# Layer 2 Token System
 
 ## Overview
-This project implements a Layer 2 (L2) token system on top of a blockchain (hypothetical implementation assuming OP_CAT is enabled). It allows users to create tokens with unique metadata and transact off-chain to ensure fast and scalable transactions, with final settlement on the blockchain.
+This project is a conceptual implementation of a Layer 2 token system, enabling the creation and transfer of tokens with unique metadata off-chain for enhanced scalability and speed. The system is designed on top of a hypothetical blockchain where OP_CAT is enabled, allowing for the concatenation of data within script execution.
 
-### Features
-1. **Token Creation**: Users can create tokens by concatenating a unique token ID with metadata (like token name, symbol, and issuance date).
-2. **Transaction Phase (Off-chain)**: Users transact with these tokens off-chain, maintaining the state of token balances privately.
-3. **Closure Phase**: Final settlement of token balances on the main chain when the off-chain channel is closed.
+## Features
+1. **Token Creation**: Users can generate unique tokens by concatenating token IDs with metadata.
+2. **Transaction Phase (Off-chain)**: Token transfers are conducted off-chain, allowing for rapid and numerous transactions without congesting the blockchain.
+3. **Closure Phase**: The final state of token balances is settled on-chain when the off-chain channel is closed.
 
 ## Getting Started
 
 ### Prerequisites
-- A basic understanding of blockchain and Layer 2 technologies.
-- [Node.js](https://nodejs.org/en/) and NPM installed.
+- Understanding of blockchain, Layer 2 technologies, and Bitcoin Script.
+- Node.js and NPM installed for script execution simulation (in a real implementation, these scripts would be part of transactions on a blockchain).
 
-### Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/layer2-token-system.git
