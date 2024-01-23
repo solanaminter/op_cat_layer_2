@@ -46,7 +46,6 @@ Open a Pull Request
 ### License
 Distributed under the MIT License. See LICENSE for more information.
 
-Acknowledgements
-Bitcoin Wiki
-[a link](https://en.bitcoin.it/wiki/Main_Page)
+### Acknowledgements
+[Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 
