@@ -1,0 +1,3 @@
+# Script for updating token balances
+# Assume Alice is sending tokens to Bob
+<Alice's Token Balance> <Bob's Token Balance> <Tokens to Send> OP_SUB <Alice's New Balance> <Tokens to Send> OP_ADD <Bob's New Balance>
