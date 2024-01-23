@@ -1,0 +1,2 @@
+# Script for final settlement (simplified)
+<Final Token State> OP_CHECKSIG
